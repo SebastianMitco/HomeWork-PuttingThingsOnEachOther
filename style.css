@@ -1,0 +1,97 @@
+
+
+/* The popup form */
+.form-popup {
+  position: absolute;
+  left:25%;
+  top:25%;  
+  z-index: 2;
+  width: 320px;
+  height:212px;
+  padding: 30px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  box-shadow: 2px 6px 27px -10px #888888;
+}
+/* Pop-up title style*/
+.popup-title{
+    
+    top: -30px;
+    position: relative;
+}
+.name-input{
+    font-weight: 800;
+}
+
+/*Style for X*/
+.close {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 46px;
+    top: 20px;
+}
+.close:after {
+    content: '';
+    height: 15px;
+    border-left: 1.5px solid black;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 28px;
+}
+
+.close:before {
+    content: '';
+    height: 15px;
+    border-left: 1.5px solid black;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 28px;
+}
+/* Styles to the form container */
+.input{
+    padding:2px;
+    margin-top:9px;
+    height:30px;
+    width: 95%;
+    color:lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* Style for the submit/login button */
+.btn-div{ 
+    position: relative;
+    right: -162px;
+    bottom: -48px;
+}
+
+.btn, .cancel{
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 7px;
+    opacity: 0.8;
+    display:inline-block;
+    align-self: flex-end;
+    vertical-align: bottom;
+
+}
+
+.btn {
+background-color: #201cc4;
+color: white;
+}
+
+.cancel{
+ background-color:white;
+ color:#201cc4;
+
+}
+
+
+
+
